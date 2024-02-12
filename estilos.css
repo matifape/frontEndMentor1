@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 12%);
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info p{
+    color: hsl(0, 0%, 100%);
+    Font-size: 14px;
+}
+
+.span{
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 8px;
+    background-color: hsl(0, 0%, 20%);
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.foto{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.contacto button:last-child{
+    margin-bottom: 10px;
+}
+
+.contacto button:hover{
+    background-color:hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+.attribution { font-size: 11px; text-align: center; margin-top: 10px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
